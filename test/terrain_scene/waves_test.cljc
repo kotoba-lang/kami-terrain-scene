@@ -7,7 +7,7 @@
 
 (deftest smoke-test
   (testing "namespace loads"
-    (is (some? (the-ns 'terrain-scene.waves)))))
+    (is (some? (find-ns 'terrain-scene.waves)))))
 
 ;; Rust (src/waves.rs): shipped_has_four_waves
 (deftest shipped-has-four-waves

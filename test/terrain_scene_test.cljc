@@ -9,7 +9,7 @@
 
 (deftest smoke-test
   (testing "namespace loads"
-    (is (some? (the-ns 'terrain-scene)))))
+    (is (some? (find-ns 'terrain-scene)))))
 
 ;; Rust (src/lib.rs): resolve_biome_is_driven_by_edn
 (deftest resolve-biome-is-driven-by-edn
