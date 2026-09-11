@@ -126,7 +126,7 @@ lists the four biomes. `terrain-scene.waves/waves-from-edn` / `shipped-waves` /
 ## Tests (parity = the correctness contract)
 
 ```bash
-clojure -M:test
+kbb -M:test
 ```
 
 20 tests / 235 assertions, 0 failures, 0 errors. Every applicable original Rust
