@@ -57,8 +57,8 @@ real, retunable EDN config.
 
 | Namespace | Restored from | Lines | Role |
 |---|---|---|---|
-| [`terrain-scene`](src/terrain_scene.cljc) | `src/lib.rs` | 398 | Biome CONFIG: `HeightmapSpec`/`SplatSpec`/`PaletteSpec`/`BiomeSpec`, EDN loaders, `builtin-biome` oracle, `resolve-biome` |
-| [`terrain-scene.waves`](src/terrain_scene/waves.cljc) | `src/waves.rs` | 111 | Default Gerstner ocean-wave table as EDN, `builtin-waves` oracle |
+| [`terrain-scene`](src/terrain_scene.cljk) | `src/lib.rs` | 398 | Biome CONFIG: `HeightmapSpec`/`SplatSpec`/`PaletteSpec`/`BiomeSpec`, EDN loaders, `builtin-biome` oracle, `resolve-biome` |
+| [`terrain-scene.waves`](src/terrain_scene/waves.cljk) | `src/waves.rs` | 111 | Default Gerstner ocean-wave table as EDN, `builtin-waves` oracle |
 
 Data: [`resources/biomes.edn`](resources/biomes.edn) (`:terrain/biomes` table: plains /
 quarry / desert / tundra) and [`resources/waves.edn`](resources/waves.edn)
